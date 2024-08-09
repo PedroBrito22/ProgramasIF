@@ -6,7 +6,7 @@
   </h2>
 </p>
 <p align="center">
- <img alt="Status Em Desenvolvimento" src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-green">
+ <img alt="Status Em Desenvolvimento" src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-orange">
 </p>
 <p align="center">
  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jvitor-alol/Saude-Solidaria?color=%2304D361">
