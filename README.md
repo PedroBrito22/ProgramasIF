@@ -5,7 +5,7 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/cubos-academy/academy-template-readme-projects">
   
-  <a href="https://github.com/jvitor-alol/Saude-Solidaria/commits/main/">
+  <a href="https://github.com/PedroBrito22/ProgramasIF/commits/master/">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/cubos-academy/academy-template-readme-projects">
   </a>
   
