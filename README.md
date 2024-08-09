@@ -1,7 +1,7 @@
 # Projeto Integrador IV
 
 <p align="center">
-  <h2> 
+  <h2 align="center"> 
 	🚧 Saúde Solidária 🚧
   </h2>
  <img alt="Status Em Desenvolvimento" src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-green">
