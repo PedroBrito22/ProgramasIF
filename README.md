@@ -1,21 +1,19 @@
 # Projeto Integrador IV
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jvitor-alol/Saude-Solidaria?color=%2304D361">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jvitor-alol/Saude-Solidaria">
-  
-  <a href="https://github.com/jvitor-alol/Saude-Solidaria/commits/main/">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jvitor-alol/Saude-Solidaria">
-  </a>
-  
-  <!-- <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen"> -->
-   
-</p>
-<h2 align="center"> 
+  <h2> 
 	🚧 Saúde Solidária 🚧
-</h2>
-	<img alt="Status Em Desenvolvimento" src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-green">
+  </h2>
+ <img alt="Status Em Desenvolvimento" src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-green">
+ <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jvitor-alol/Saude-Solidaria?color=%2304D361">
+ <img alt="Repository size" src="https://img.shields.io/github/repo-size/jvitor-alol/Saude-Solidaria">
+  
+ <a href="https://github.com/jvitor-alol/Saude-Solidaria/commits/main/">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jvitor-alol/Saude-Solidaria">
+ </a>
+
+<!-- <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen"> -->
+
 </p>
 
 <p align="center">
