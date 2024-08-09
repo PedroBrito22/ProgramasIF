@@ -1,9 +1,9 @@
 # ⚕️ Saúde Solidária
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/PedroBrito22/ProgramasIF?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jvitor-alol/Saude-Solidaria?color=%2304D361">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/PedroBrito22/ProgramasIF">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jvitor-alol/Saude-Solidaria">
   
   <a href="https://github.com/jvitor-alol/Saude-Solidaria/commits/main/">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jvitor-alol/Saude-Solidaria">
@@ -11,22 +11,12 @@
   
   <!-- <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen"> -->
    
-   <a href="https://github.com/PedroBrito22/ProgramasIF/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/PedroBrito22/ProgramasIF?style=social">
+   <a href="https://github.com/jvitor-alol/Saude-Solidaria/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/jvitor-alol/Saude-Solidaria?style=social">
   </a>
-  
-   <a href="https://www.twitter.com/cubosacademy/">
-    <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fcubos-academy%2Facademy-template-readme-projects">
-  </a>
-  
- 
 </p>
-<h1 align="center">
-    <img alt="Cubos Academy" title="#CubosAcademy" src="assets/Capa GItHub.png" />
-</h1>
-
 <h4 align="center"> 
-	🚧 Nome do Projeto 🚧
+	🚧 Saúde Solidária 🚧
 </h4>
 
 <p align="center">
