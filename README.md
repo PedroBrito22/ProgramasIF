@@ -1,4 +1,4 @@
-# ⚕️ Saúde Solidária
+# Projeto Integrador IV
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jvitor-alol/Saude-Solidaria?color=%2304D361">
@@ -15,9 +15,9 @@
     <img alt="Stargazers" src="https://img.shields.io/github/stars/jvitor-alol/Saude-Solidaria?style=social">
   </a>
 </p>
-<h4 align="center"> 
+<h3 align="center"> 
 	🚧 Saúde Solidária 🚧
-</h4>
+</h3>
 
 <p align="center">
 	<img alt="Status Em Desenvolvimento" src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-green">
