@@ -11,15 +11,10 @@
   
   <!-- <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen"> -->
    
-   <a href="https://github.com/jvitor-alol/Saude-Solidaria/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/jvitor-alol/Saude-Solidaria?style=social">
-  </a>
 </p>
 <h2 align="center"> 
 	🚧 Saúde Solidária 🚧
 </h2>
-
-<p align="center">
 	<img alt="Status Em Desenvolvimento" src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-green">
 </p>
 
