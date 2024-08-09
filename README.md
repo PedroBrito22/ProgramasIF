@@ -10,8 +10,7 @@
 </p>
 <p align="center">
  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jvitor-alol/Saude-Solidaria?color=%2304D361">
- <img alt="Repository size" src="https://img.shields.io/github/repo-size/jvitor-alol/Saude-Solidaria">
-  
+ <img alt="Repository size" src="https://img.shields.io/github/repo-size/jvitor-alol/Saude-Solidaria"> 
  <a href="https://github.com/jvitor-alol/Saude-Solidaria/commits/main/">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jvitor-alol/Saude-Solidaria">
  </a>
