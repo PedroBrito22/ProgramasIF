@@ -15,13 +15,12 @@
     <img alt="Stargazers" src="https://img.shields.io/github/stars/jvitor-alol/Saude-Solidaria?style=social">
   </a>
 </p>
-<h3 align="center"> 
+<h2 align="center"> 
 	🚧 Saúde Solidária 🚧
-</h3>
+</h2>
 
 <p align="center">
 	<img alt="Status Em Desenvolvimento" src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-green">
-	<img alt="Status Concluído" src="https://img.shields.io/badge/STATUS-CONCLU%C3%8DDO-brightgreen">
 </p>
 
 <p align="center">
