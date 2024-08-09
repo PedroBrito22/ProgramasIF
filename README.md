@@ -6,7 +6,7 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/cubos-academy/academy-template-readme-projects">
   
   <a href="https://github.com/PedroBrito22/ProgramasIF/commits/master/">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ProframasIF/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/PedroBrito22/ProgramasIF">
   </a>
   
   <!-- <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen"> -->
