@@ -2,7 +2,7 @@
 
 <p align="center">
   <h2 align="center"> 
-	🚧 Saúde Solidária 🚧
+	🚧 App Saúde Solidária 🚧
   </h2>
 </p>
 <p align="center">
