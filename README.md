@@ -21,7 +21,7 @@
 
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
-<a href="#-objetivo-do-projeto">Objetivo</a> •	
+ <a href="#-objetivo-do-projeto">Objetivo</a> •	
  <a href="#-funcionalidades">Funcionalidades</a> •
  <a href="#-layout">Layout</a> • 
  <a href="#-como-executar-o-projeto">Como executar</a> • 
@@ -40,7 +40,7 @@ Projeto desenvolvido durante a **[Turma | Evento]** de [ [Desenvolvimento de Sof
 A Cubos Academy é uma escola com cursos de tecnologia para todos os perfis, do iniciante ao avançado.
 
 ---
-
+## 🔘 Objetivo do projeto
 ## ⚙️ Funcionalidades
 
 - [x] Funcionalidade 1:
