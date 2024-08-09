@@ -1,5 +1,4 @@
-# academy-template-readme-projects
-![](https://i.imgur.com/xG74tOh.png)
+# ⚕️ Saúde Solidária
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/cubos-academy/academy-template-readme-projects?color=%2304D361">
@@ -214,44 +213,46 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-## 👨‍💻 Contribuidores
+## Colaboradores
 
-Um praise para os cúbicos que contribuíram neste projeto 👏
-
-<table>
-  <tr>
-    <td align="center"><a href="https://cubos.academy/"><img style="border-radius: 50%;" src="https://ca.slack-edge.com/T02BJRAJH6G-U02BMJ98N68-5e47f31c2a79-512" width="100px;" alt=""/><br /><sub><b>Guido Cerqueira</b></sub></a><br /><a href="https://cubos.academy/" title="Cubos Academy">👨‍💻</a></td>
-    <td align="center"><a href="https://cubos.academy/"><img style="border-radius: 50%;" src="https://media.licdn.com/dms/image/D4E03AQG_0i4C04YeYg/profile-displayphoto-shrink_200_200/0/1677773908684?e=1688601600&v=beta&t=D1aefI0DMhoc7NZFvKUMn_LAIGEyEczyFaxUz0Auh6o" width="100px;" alt=""/><br /><sub><b>Daniel Lopes</b></sub></a><br /><a href="https://cubos.academy/" title="Cubos Academy">👨‍💻</a></td>
-    <td align="center"><a href="https://cubos.academy/"><img style="border-radius: 50%;" src="https://media.licdn.com/dms/image/C4E03AQG1l_n_4-Bhsg/profile-displayphoto-shrink_200_200/0/1516624005627?e=1688601600&v=beta&t=5nA_EezcbJ068eNefrWeccM-FBUUBnmKWQ7frFCxG9U" width="100px;" alt=""/><br /><sub><b>Guilherme Bernal</b></sub></a><br /><a href="https://cubos.academy/" title="Cubos Academy">👨‍💻</a></td>
-	 <td align="center"><a href="https://cubos.academy/"><img style="border-radius: 50%;" src="https://media.licdn.com/dms/image/C4E03AQGp3BsgWtthBg/profile-displayphoto-shrink_200_200/0/1643505110642?e=1688601600&v=beta&t=c_h3BkUr6POLelref_Nzc6AqzJpWTgENueNs9KqmvRM" width="100px;" alt=""/><br /><sub><b>Clara Battesini</b></sub></a><br /><a href="https://cubos.academy/" title="Cubos Academy">👩‍💻</a></td>
-    
-    
-  </tr>
-</table>
-
-## 💪 Como contribuir para o projeto
-
-1. Faça um **fork** do projeto.
-2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
-3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
-4. Envie as suas alterações: `git push origin my-feature`
-> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
-
----
-
-## 🧙‍♂️ Autor
-
-<a href="https://www.figma.com/@caiux">
- <img style="border-radius: 50%;" src="https://media.licdn.com/dms/image/D4D03AQEDfulqSVXZqw/profile-displayphoto-shrink_200_200/0/1674667231041?e=1688601600&v=beta&t=C-f9fp3xJDwXm1u4c6eMwpWfVIyW0eCTDAKGIyNdRJA" width="100px;" alt=""/>
- <br />
- <sub><b>Caio Lopes</b></sub></a> <a href="https://www.figma.com/@caiux" title="Cubos Academy">✨</a>
- <br />
-
----
-
-## 📝 Licença
-
-<!-- Este projeto esta sobe a licença [MIT](./LICENSE). -->
-
-Feito com ❤️ por Caio Lopes 👋🏽 [Entre em contato!](https://www.linkedin.com/in/caiovslopes/)
+<div align="center">
+    <table style="width: 100%; border-collapse: collapse; text-align: center;">
+    <tr>
+        <td style="padding: 20px; border: 1px solid #ddd; vertical-align: middle;">
+            <img src="https://avatars.githubusercontent.com/u/74667067?v=4" alt="jvitor-alol" style="display: block; margin: 0 auto; width: 100px; height: 100px;">
+            <a href="https://github.com/jvitor-alol" target="_blank"><p>jvitor-alol</p></a>
+        </td>
+        <td style="padding: 20px; border: 1px solid #ddd; vertical-align: middle;">
+            <img src="https://avatars.githubusercontent.com/u/85653011?v=4" alt="Lynn-Noob" style="display: block; margin: 0 auto; width: 100px; height: 100px;">
+            <a href="https://github.com/Lynn-Noob" target="_blank"><p>Lynn-Noob</p></a>
+        </td>
+        <td style="padding: 20px; border: 1px solid #ddd; vertical-align: middle;">
+            <img src="https://avatars.githubusercontent.com/u/95151247?v=4" alt="Guilherme-Soares05" style="display: block; margin: 0 auto; width: 100px; height: 100px;">
+            <a href="https://github.com/Guilherme-Soares05" target="_blank"><p>Guilherme-Soares05</p></a>
+        </td>
+        <td style="padding: 20px; border: 1px solid #ddd; vertical-align: middle;">
+            <img src="https://avatars.githubusercontent.com/u/94906196?v=4" alt="Rosicre" style="display: block; margin: 0 auto; width: 100px; height: 100px;">
+            <a href="https://github.com/Rosicre" target="_blank"><p>Rosicre</p></a>
+        </td>
+    </tr>
+    <tr>
+        <td style="padding: 20px; border: 1px solid #ddd; vertical-align: middle;">
+            <img src="https://avatars.githubusercontent.com/u/142458518?v=4" alt="mirelaads" style="display: block; margin: 0 auto; width: 100px; height: 100px;">
+            <a href="https://github.com/mirelaads" target="_blank"><p>mirelaads</p></a>
+        </td>
+        <td style="padding: 20px; border: 1px solid #ddd; vertical-align: middle;">
+            <img src="https://avatars.githubusercontent.com/u/102329062?v=4" alt="medinaandre" style="display: block; margin: 0 auto; width: 100px; height: 100px;">
+            <a href="https://github.com/medinaandre" target="_blank"><p>medinaandre</p></a>
+        </td>
+        <td style="padding: 20px; border: 1px solid #ddd; vertical-align: middle;">
+            <img src="https://avatars.githubusercontent.com/u/86894587?v=4" alt="dkexs" style="display: block; margin: 0 auto; width: 100px; height: 100px;">
+            <a href="https://github.com/dkexs" target="_blank"><p>dkexs</p></a>
+        </td>
+        <td style="padding: 20px; border: 1px solid #ddd; vertical-align: middle;">
+            <img src="https://avatars.githubusercontent.com/u/60987344?v=4" alt="PedroBrito22" style="display: block; margin: 0 auto; width: 100px; height: 100px;">
+            <a href="https://github.com/PedroBrito22" target="_blank"><p>PedroBrito22</p></a>
+        </td>
+    </tr>
+  </table>
+</div>
 
