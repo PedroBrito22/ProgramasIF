@@ -5,18 +5,17 @@
 	🚧 App Saúde Solidária 🚧
   </h2>
 </p>
+
 <p align="center">
  <img alt="Status Em Desenvolvimento" src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-orange">
 </p>
+
 <p align="center">
  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jvitor-alol/Saude-Solidaria?color=%2304D361">
  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jvitor-alol/Saude-Solidaria"> 
  <a href="https://github.com/jvitor-alol/Saude-Solidaria/commits/main/">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jvitor-alol/Saude-Solidaria">
  </a>
-
-<!-- <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen"> -->
-
 </p>
 
 <p align="center">
@@ -29,12 +28,11 @@
 
 </p>
 
-
 ## 💻 Sobre o projeto
-Como a saúde tornou-se uma preocupação global no cenário contemporâneo, uma ferramenta que ofereça ampla e unificada informação e conscientização sobre saúde preventiva, sem discriminação de idade e gênero, torna-se crucial
 
----
 ## 🔘 Objetivo do projeto
+  Temos visto que a saúde preventiva tornou-se uma preocupação global devido a pandemia, o medo de uma nova doença desconhecida está na mente da população. Este projeto visa criar uma ferramenta que ofereça ampla e unificada informação e conscientização sobre saúde preventiva, sem discriminação de idade e gênero. Sendo sáude física ou mental, devemos nos cuidar diariamente, nosso projeto mostrará ao indivíduo como cuidar de si da melhor forma.
+
 ## ⚙️ Funcionalidades
 
 - [x] Funcionalidade 1:
