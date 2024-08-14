@@ -1,9 +1,9 @@
 # Projeto Integrador IV
 
 <p align="center">
-  <h2 align="center"> 
+  <h1 align="center"> 
 	⚕️ Saúde Solidária ⚕️
-  </h2>
+  </h1>
 </p>
 
 <p align="center">
@@ -49,8 +49,166 @@ O layout da aplicação está disponível no Figma:
 
 
 ## Banco de Dados
-<img alt ="https://github.com/PedroBrito22/ProgramasIF/blob/master/MER.jpeg">
-</a>
+  <img src="MER.jpeg" alt="drawing" width="700px"/>
+<h3> 
+Usuários e Médicos:
+</h3>
+
+Relacionamento: 1:1
+ 
+Justificativa: Um usuário pode ser um médico, mas um médico é um usuário. Cada registro na tabela usuarios pode ter, no máximo, um registro correspondente na tabela medicos, e vice-versa.
+
+<h3> 
+Usuários e Posts:
+</h3> 
+
+Relacionamento: 1
+
+Justificativa: Um usuário pode criar vários posts, mas cada post é criado por um único usuário.
+
+<h3> 
+Posts e Comentários:
+</h3> 
+
+Relacionamento: 1
+
+Justificativa: Um post pode ter muitos comentários, mas cada comentário pertence a um único post.
+<h3> 
+Usuários e Comentários:
+</h3> 
+
+Relacionamento: 1
+
+Justificativa: Um usuário pode escrever muitos comentários, mas cada comentário é escrito por um único usuário.
+<h3>
+suarios e favoritos:
+</h3>
+
+Relacionamento: 1
+
+Justificativa: Um usuário pode adicionar vários posts aos favoritos, mas cada entrada nos favoritos está associada a um único usuário.
+<h3>
+Usuários e ler_mais_tarde:
+</h3>
+
+Relacionamento: 1
+
+Justificativa: Um usuário pode adicionar vários posts à lista de leitura para depois, mas cada entrada na lista de leitura está associada a um único usuário.
+<h3>
+Usuários e Reports:
+</h3>
+
+Relacionamento: 1
+
+Justificativa: Um usuário pode fazer várias denúncias (reports), mas cada denúncia é feita por um único usuário.
+<h3>
+
+Posts e Favoritos, Ler mais tarde e Reports:
+</h3>
+
+Relacionamento: 1
+
+Justificativa: Cada post pode ser favoritado, adicionado à lista de leitura ou denunciado por vários usuários.
+<h3>
+
+Favoritos, Ler mais tarde, Reports:
+</h3>
+
+Relacionamento: n
+
+Justificativa: Um usuário pode favoritar, salvar para ler depois ou reportar múltiplos posts, e cada post pode ser favoritado, salvo ou reportado por múltiplos usuários.
+
+```env
+Script:
+CREATE TABLE usuarios (
+  id INT NOT NULL AUTO_INCREMENT,
+  nome VARCHAR(255) NOT NULL,
+  sobrenome VARCHAR(255) NOT NULL,
+  nome_usuario VARCHAR(100) NOT NULL UNIQUE,
+  senha VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL UNIQUE,
+  telefone VARCHAR(20),
+  cidade VARCHAR(100),
+  estado VARCHAR(100),
+  pais VARCHAR(100) DEFAULT 'Brasil',
+  data_nascimento DATE,
+  genero VARCHAR(20),
+  foto_perfil TEXT NOT NULL,
+  bio TEXT,
+  data_registro DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  ultimo_login DATETIME,
+  status VARCHAR(20) DEFAULT 'ativo',
+  notificacoes BOOLEAN DEFAULT TRUE,
+  tipo_usuario VARCHAR(20) NOT NULL DEFAULT 'comum',
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE medicos (
+  usuario_id INT NOT NULL,
+  crm VARCHAR(50) NOT NULL,
+  especialidade VARCHAR(100) NOT NULL,
+  PRIMARY KEY (usuario_id),
+  CONSTRAINT fk_medicos_usuarios FOREIGN KEY (usuario_id) REFERENCES usuarios (id)
+);
+
+CREATE TABLE posts (
+  id INT NOT NULL AUTO_INCREMENT,
+  titulo VARCHAR(255) NOT NULL,
+  conteudo TEXT NOT NULL,
+  estrelas SMALLINT DEFAULT 0,
+  num_votos INT DEFAULT 0,
+  data_publicacao DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  ultima_atualizacao DATETIME,
+  autor_id INT NOT NULL,
+  PRIMARY KEY (id),
+  CONSTRAINT fk_posts_usuarios FOREIGN KEY (autor_id) REFERENCES usuarios (id)
+);
+
+CREATE TABLE comentarios (
+  id INT NOT NULL AUTO_INCREMENT,
+  texto TEXT NOT NULL,
+  estrelas SMALLINT DEFAULT 0,
+  num_votos INT DEFAULT 0,
+  data_comentario DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  autor_id INT NOT NULL,
+  post_id INT NOT NULL,
+  PRIMARY KEY (id),
+  CONSTRAINT fk_comentarios_usuarios FOREIGN KEY (autor_id) REFERENCES usuarios (id),
+  CONSTRAINT fk_comentarios_posts FOREIGN KEY (post_id) REFERENCES posts (id)
+);
+
+CREATE TABLE favoritos (
+  id INT NOT NULL AUTO_INCREMENT,
+  usuario_id INT NOT NULL,
+  post_id INT NOT NULL,
+  data_adicao DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  CONSTRAINT fk_favoritos_usuarios FOREIGN KEY (usuario_id) REFERENCES usuarios (id),
+  CONSTRAINT fk_favoritos_posts FOREIGN KEY (post_id) REFERENCES posts (id)
+);
+
+CREATE TABLE ler_mais_tarde (
+  id INT NOT NULL AUTO_INCREMENT,
+  usuario_id INT NOT NULL,
+  post_id INT NOT NULL,
+  data_adicao DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  CONSTRAINT fk_ler_mais_tarde_usuarios FOREIGN KEY (usuario_id) REFERENCES usuarios (id),
+  CONSTRAINT fk_ler_mais_tarde_posts FOREIGN KEY (post_id) REFERENCES posts (id)
+);
+
+CREATE TABLE reports (
+  id INT NOT NULL AUTO_INCREMENT,
+  usuario_id INT NOT NULL,
+  post_id INT NOT NULL,
+  motivo TEXT NOT NULL,
+  descricao TEXT,
+  data_report DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  CONSTRAINT fk_reports_usuarios FOREIGN KEY (usuario_id) REFERENCES usuarios (id),
+  CONSTRAINT fk_reports_posts FOREIGN KEY (post_id) REFERENCES posts (id)
+);
+```
 
 ## 🛣️ Como executar o projeto
 
