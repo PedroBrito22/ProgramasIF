@@ -34,10 +34,6 @@
 ## 🔘 Objetivo do projeto
   Temos visto que a saúde preventiva tornou-se uma preocupação global devido a pandemia, o medo de uma nova doença desconhecida está na mente da população. Este projeto visa criar uma ferramenta que ofereça ampla e unificada informação e conscientização sobre saúde preventiva, sem discriminação de idade e gênero. Sendo sáude física ou mental, devemos nos cuidar diariamente, nosso projeto mostrará ao indivíduo como cuidar de si da melhor forma.
 
-## Pré-Requisitos
-  - [Docker](https://docs.docker.com/guides/getting-started/)
-  - [Docker Compose](https://docs.docker.com/compose/)
-
 
 ## 🎨 Layout
 
@@ -50,76 +46,65 @@ O layout da aplicação está disponível no Figma:
 
 ## Banco de Dados
   <img src="MER.jpeg" alt="drawing" width="700px"/>
-<h3> 
-Usuários e Médicos:
-</h3>
+
+### Usuários e Médicos:
 
 Relacionamento: 1:1
  
 Justificativa: Um usuário pode ser um médico, mas um médico é um usuário. Cada registro na tabela usuarios pode ter, no máximo, um registro correspondente na tabela medicos, e vice-versa.
-
-<h3> 
-Usuários e Posts:
-</h3> 
+ 
+### Usuários e Posts:
 
 Relacionamento: 1
 
 Justificativa: Um usuário pode criar vários posts, mas cada post é criado por um único usuário.
 
-<h3> 
-Posts e Comentários:
-</h3> 
+### Posts e Comentários:
 
 Relacionamento: 1
 
 Justificativa: Um post pode ter muitos comentários, mas cada comentário pertence a um único post.
-<h3> 
-Usuários e Comentários:
-</h3> 
+
+### Usuários e Comentários:
 
 Relacionamento: 1
 
 Justificativa: Um usuário pode escrever muitos comentários, mas cada comentário é escrito por um único usuário.
-<h3>
-suarios e favoritos:
-</h3>
+
+### Usuários e Favoritos:
 
 Relacionamento: 1
 
 Justificativa: Um usuário pode adicionar vários posts aos favoritos, mas cada entrada nos favoritos está associada a um único usuário.
-<h3>
-Usuários e ler_mais_tarde:
-</h3>
+
+### Usuários e Ler_mais_tarde:
 
 Relacionamento: 1
 
 Justificativa: Um usuário pode adicionar vários posts à lista de leitura para depois, mas cada entrada na lista de leitura está associada a um único usuário.
-<h3>
-Usuários e Reports:
-</h3>
+
+### Usuários e Reports:
 
 Relacionamento: 1
 
 Justificativa: Um usuário pode fazer várias denúncias (reports), mas cada denúncia é feita por um único usuário.
-<h3>
 
-Posts e Favoritos, Ler mais tarde e Reports:
-</h3>
+### Posts e Favoritos, Ler mais tarde e Reports:
 
 Relacionamento: 1
 
 Justificativa: Cada post pode ser favoritado, adicionado à lista de leitura ou denunciado por vários usuários.
-<h3>
 
-Favoritos, Ler mais tarde, Reports:
-</h3>
+### Favoritos, Ler mais tarde, Reports:
 
 Relacionamento: n
 
 Justificativa: Um usuário pode favoritar, salvar para ler depois ou reportar múltiplos posts, e cada post pode ser favoritado, salvo ou reportado por múltiplos usuários.
 
-```bash
-Script:
+
+## Script
+
+```env
 CREATE TABLE usuarios (
   id INT NOT NULL AUTO_INCREMENT,
   nome VARCHAR(255) NOT NULL,
@@ -209,115 +194,30 @@ CREATE TABLE reports (
   CONSTRAINT fk_reports_posts FOREIGN KEY (post_id) REFERENCES posts (id)
 );
 ```
+## ⚙️ Pré-Requisitos
+  - [Docker](https://docs.docker.com/guides/getting-started/)
+  - [Docker Compose](https://docs.docker.com/compose/)
 
 ## 🛣️ Como executar o projeto
+- Clone o repositório
+- Crie um arquivo .env na raíz do repositório com as seguintes variáveis de ambiente configuradas (modifique usuários, senhas e chaves de acordo):
 
-Este projeto é divido em três partes:
-1. Backend (pasta server) 
-2. Frontend (pasta web)
-3. Mobile (pasta mobile)
+  ```env
+  FLASK_APP=run.py
+  FLASK_CONFIG=production
+  SECRET_KEY=<flask-secret-key>
+  POSTGRES_USER=flask_app
+  PGUSER=${POSTGRES_USER}
+  POSTGRES_PASSWORD=<super-secret-password>
+  POSTGRES_HOST=db
+  POSTGRES_PORT=5432
+  POSTGRES_DB=saude_solidaria
+  DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}
+  PGADMIN_DEFAULT_EMAIL=<admin@pgadmin.com>
+  PGADMIN_DEFAULT_PASSWORD=<password>
+  TZ=America/Sao_Paulo
+  ```
 
-💡Tanto o Frontend quanto o Mobile precisam que o Backend esteja sendo executado para funcionar.
-
-### Pré-requisitos
-
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
-
-#### 🎲 Rodando o Backend (servidor)
-
-```bash
-
-# Clone este repositório
-$ git clone git@github.com:cubos-academy/academy-template-readme-projects.git
-
-# Acesse a pasta do projeto no terminal/cmd
-$ cd academy-template-readme-projects
-
-# Vá para a pasta server
-$ cd server
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
-
-# O servidor inciará na porta:3333 - acesse http://localhost:3333 
-
-```
-<p align="center">
-  <a href="https://github.com/cubos-academy/academy-template-readme-projects" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
-</p>
-
-
-#### 🧭 Rodando a aplicação web (Frontend)
-
-```bash
-
-# Clone este repositório
-$ git clone git@github.com:cubos-academy/academy-template-readme-projects.git
-
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd academy-template-readme-projects
-
-# Vá para a pasta da aplicação Front End
-$ cd web
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run start
-
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
-
-```
-
----
-
-## 🛠 Tecnologias
-
-As seguintes ferramentas foram usadas na construção do projeto:
-
-#### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
-
--   **[React Icons](https://react-icons.github.io/react-icons/)**
--   **[Axios](https://github.com/axios/axios)**
-
-> Veja o arquivo  [package.json](https://github.com/cubos-academy/academy-template-readme-projects/blob/master/web/package.json)
-
-#### [](https://github.com/cubos-academy/academy-template-readme-projects#server-nodejs--typescript)**Server**  ([NodeJS](https://nodejs.org/en/)  +  [TypeScript](https://www.typescriptlang.org/))
-
--   **[Express](https://expressjs.com/)**
--   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
--   **[KnexJS](http://knexjs.org/)**
--   **[SQLite](https://github.com/mapbox/node-sqlite3)**
--   **[ts-node](https://github.com/TypeStrong/ts-node)**
--   **[dotENV](https://github.com/motdotla/dotenv)**
-
-> Veja o arquivo  [package.json](https://github.com/cubos-academy/academy-template-readme-projects/blob/master/web/package.json)
-
-#### [](https://github.com/cubos-academy/academy-template-readme-projects#mobile-flutter--typescript)**Mobile**  ([Flutter](https://flutter.dev/)  +  [TypeScript](https://www.typescriptlang.org/))
-
--   **[Flutter](https://flutter.dev/)**
-
-> Veja o arquivo  [package.json](https://github.com/cubos-academy/academy-template-readme-projects/blob/master/mobile/package.json)
-
-#### [](https://github.com/cubos-academy/academy-template-readme-projects#utilit%C3%A1rios)**Utilitários**
-
--   Protótipo:  **[Figma](https://www.figma.com/)**  →  **[Protótipo](https://www.figma.com/file/L4O2dxZzKKhEPspDgxzZ3a/Template-de-Capa-para-Projetos?type=design&node-id=0%3A1&t=zpQ8tnlNEfQtMeC8-1)**
--   API:  **[API](Link da API)**
--   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**  → Extensions:  **[SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)**
--   Markdown:  **[StackEdit](https://stackedit.io/)**,  **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
--   Commit Conventional:  **[Commitlint](https://github.com/conventional-changelog/commitlint)**
--   Teste de API:  **[Insomnia](https://insomnia.rest/)**
--   Ícones:  **[Feather Icons](https://feathericons.com/)**,  **[Font Awesome](https://fontawesome.com/)**
--   Fontes:  **[Ubuntu](https://fonts.google.com/specimen/Ubuntu)**,  **[Roboto](https://fonts.google.com/specimen/Roboto)**
-
-
----
 
 ## Colaboradores
 
