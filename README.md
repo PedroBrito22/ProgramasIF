@@ -2,7 +2,7 @@
 
 <p align="center">
   <h2 align="center"> 
-	🚧 App Saúde Solidária 🚧
+	⚕️ Saúde Solidária ⚕️
   </h2>
 </p>
 
@@ -21,33 +21,23 @@
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
  <a href="#-objetivo-do-projeto">Objetivo</a> •	
- <a href="#-funcionalidades">Funcionalidades</a> •
- <a href="#-layout">Layout</a> • 
+ <a href="#-Pré-Requisitos">Pré-Requisitos</a> •
+ <a href="#-Banco de Dados">Banco de Dados</a> • 
  <a href="#-como-executar-o-projeto">Como executar</a> • 
- <a href="#-contribuidores">Contribuidores</a> • 
+ <a href="#-contribuidores">Contribuidores</a> 
 
 </p>
 
 ## 💻 Sobre o projeto
+  Projeto sendo desenvolvido por estudantes de graduação em Análise e Desenvolvimento de Sistemas pelo SENAC.
 
 ## 🔘 Objetivo do projeto
   Temos visto que a saúde preventiva tornou-se uma preocupação global devido a pandemia, o medo de uma nova doença desconhecida está na mente da população. Este projeto visa criar uma ferramenta que ofereça ampla e unificada informação e conscientização sobre saúde preventiva, sem discriminação de idade e gênero. Sendo sáude física ou mental, devemos nos cuidar diariamente, nosso projeto mostrará ao indivíduo como cuidar de si da melhor forma.
 
-## ⚙️ Funcionalidades
+## Pré-Requisitos
+  - [Docker](https://docs.docker.com/guides/getting-started/)
+  - [Docker Compose](https://docs.docker.com/compose/)
 
-- [x] Funcionalidade 1:
-  - [x] Entidade 1
-  - [x] Entidade 2
-  - [x] Entidade 3
-  - [x] Entidade 4: 
-    - Item 1
-    - Item 2
-
-- [x] Funcionalidade 1:
-  - [x] Entidade 1
-  - [x] Entidade 2
-
----
 
 ## 🎨 Layout
 
@@ -58,23 +48,8 @@ O layout da aplicação está disponível no Figma:
 </a>
 
 
-### Mobile
-
-<p align="center">
-  <img alt="Nome do Projeto" title="Nome do Projeto" src="assets/LightModeMobile.png" width="200px">
-
-  <img alt="Nome do Projeto" title="Nome do Projeto" src="assets/DarkModeMobile.png" width="200px">
-</p>
-
-### Web
-
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Nome do Projeto" title="Nome do Projeto" src="assets/LightMode.png" width="400px">
-
-  <img alt="Nome do Projeto" title="Nome do Projeto" src="assets/DarkMode.png" width="400px">
-</p>
-
----
+## Banco de Dados
+<a href="">
 
 ## 🛣️ Como executar o projeto
 
