@@ -45,7 +45,7 @@ O layout da aplicação está disponível no Figma:
 
 
 ## Banco de Dados
-  <img src="MER.jpeg" alt="drawing" width="700px"/>
+  <img src="MER.png" alt="drawing" width="700px"/>
 
 ### Usuários e Médicos:
 
