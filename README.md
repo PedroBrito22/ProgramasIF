@@ -118,7 +118,7 @@ Relacionamento: n
 
 Justificativa: Um usuário pode favoritar, salvar para ler depois ou reportar múltiplos posts, e cada post pode ser favoritado, salvo ou reportado por múltiplos usuários.
 
-```env
+```bash
 Script:
 CREATE TABLE usuarios (
   id INT NOT NULL AUTO_INCREMENT,
